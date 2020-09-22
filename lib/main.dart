@@ -1,7 +1,8 @@
+import 'package:Charchters/admob_serve.dart';
 import 'package:Charchters/pages/charchter_listing.dart';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:admob_flutter/admob_flutter.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
@@ -16,8 +17,24 @@ void main() {
         theme: ThemeData(
             primaryColor: Color(0xff000000),
             backgroundColor: Color(0xff000000)),
-        home: charchter_listing(),
+        home: MyApp(),
       ),
     ),
   );
+}
+
+class MyApp extends StatefulWidget {
+  MyApp({Key key}) : super(key: key);
+
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: charchter_listing(),
+    );
+  }
 }

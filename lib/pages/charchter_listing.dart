@@ -1,8 +1,10 @@
 import 'package:Charchters/models/character.dart';
 import 'package:Charchters/widgets/chachterwidget.dart';
+import 'package:admob_flutter/admob_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
+import 'package:admob_flutter/admob_flutter.dart';
+import 'package:Charchters/admob_serve.dart';
 import '../styleguide.dart';
 
 class charchter_listing extends StatefulWidget {
@@ -11,11 +13,13 @@ class charchter_listing extends StatefulWidget {
 }
 
 class _charchter_listingState extends State<charchter_listing> {
+  final ams = AdMobService();
   PageController _pageController;
   int currentPage = 0;
   @override
   void initState() {
     super.initState();
+    Admob.initialize('ca-app-pub-1623967765833422~7895253035');
     _pageController = PageController(
         viewportFraction: 1.0, initialPage: currentPage, keepPage: false);
   }
@@ -53,7 +57,13 @@ class _charchter_listingState extends State<charchter_listing> {
                       pageController: _pageController,
                       currentIndex: i)
               ],
-            ))
+            )),
+            SizedBox(
+              height: 10.w,
+            ),
+            AdmobBanner(
+                adUnitId: 'ca-app-pub-1623967765833422/8863869716',
+                adSize: AdmobBannerSize.FULL_BANNER),
           ],
         ),
       ),
