@@ -1,16 +1,18 @@
-# Charchters
+# Kmobatants
 
-A new Flutter project.
+This App contains mortal kombat(Game) characters information and their video an have some beatiful Flutter UI
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Main SCreen
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<img src="https://firebasestorage.googleapis.com/v0/b/githubimage.appspot.com/o/One.jpeg?alt=media&token=859a7e6e-db0a-402f-99ab-9eb6a49e9c4d" width="30%">
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Detail Screen
+
+
+<img src="https://firebasestorage.googleapis.com/v0/b/githubimage.appspot.com/o/Two.jpeg?alt=media&token=41e5f2ba-aa97-4e9f-b376-9e03cba26f3d" width="30%">
+
+
+
+
