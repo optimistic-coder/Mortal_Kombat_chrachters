@@ -16,3 +16,7 @@ Detail Screen
 
 
 
+<img src="https://firebasestorage.googleapis.com/v0/b/githubimage.appspot.com/o/ezgif.com-crop.gif?alt=media&token=a7457426-e524-42b8-b053-9f5941350210" width="30%">
+
+
+
