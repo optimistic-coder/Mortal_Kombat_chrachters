@@ -14,7 +14,7 @@ Detail Screen
 <img src="https://firebasestorage.googleapis.com/v0/b/githubimage.appspot.com/o/Two.jpeg?alt=media&token=41e5f2ba-aa97-4e9f-b376-9e03cba26f3d" width="30%">
 
 
-
+Animation
 
 <img src="https://firebasestorage.googleapis.com/v0/b/githubimage.appspot.com/o/ezgif.com-crop.gif?alt=media&token=a7457426-e524-42b8-b053-9f5941350210" width="30%">
 
