@@ -1,4 +1,4 @@
-package com.example.Charchters
+package com.mortal.kombat.info
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -3,9 +3,7 @@ import 'package:Charchters/pages/Video.dart';
 import 'package:Charchters/styleguide.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:admob_flutter/admob_flutter.dart';
-import 'package:admob_flutter/admob_flutter.dart';
-import 'package:Charchters/admob_serve.dart';
+import 'package:flutter/src/widgets/transitions.dart';
 
 class CharchterDetailScreen extends StatefulWidget {
   final Character character;
@@ -17,14 +15,6 @@ class CharchterDetailScreen extends StatefulWidget {
 }
 
 class _CharchterDetailScreenState extends State<CharchterDetailScreen> {
-  final ams = AdMobService();
-
-  @override
-  void initState() {
-    super.initState();
-    Admob.initialize('ca-app-pub-1623967765833422~7895253035');
-  }
-
   @override
   Widget build(BuildContext context) {
     var ScreenHeights = MediaQuery.of(context).size.height;
@@ -105,9 +95,6 @@ class _CharchterDetailScreenState extends State<CharchterDetailScreen> {
                         padding: EdgeInsets.only(
                             left: 32.w, right: 20.w, top: 22.w, bottom: 20.w),
                         child: Video(fatalites: widget.character.fatality)),
-                    AdmobBanner(
-                        adUnitId: 'ca-app-pub-1623967765833422/8863869716',
-                        adSize: AdmobBannerSize.FULL_BANNER),
                   ],
                 ),
               )
